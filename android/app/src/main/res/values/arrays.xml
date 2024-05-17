@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="adsconfig">
+        <item>
+            ca-app-pub-3940256099942544/1033173712,INTERSTITIAL,1,500
+        </item>
+    </array>
+</resources>
