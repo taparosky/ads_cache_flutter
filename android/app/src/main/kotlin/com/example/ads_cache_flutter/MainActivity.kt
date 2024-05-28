@@ -22,9 +22,7 @@ class MainActivity: FlutterActivity() {
 
         adsCache = AdsCache(this)
 
-        MobileAds.initialize(this) { initializationStatus ->
-            adsCache.initialize()
-        }
+        adsCache.initialize()
 
         channel.setMethodCallHandler{ call, result ->
             when (call.method){
